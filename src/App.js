@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import MainComponent from './components/MainComponent'
+import MainComponent from './components/MainComponent';
+import { Link } from 'react-router-dom';
 
 export class App extends Component {
   render() {
@@ -10,18 +11,18 @@ export class App extends Component {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/">Link</Link>
+                <Link to="/">Link</Link>
+                <Link to="/">Link</Link>
+                <Link to="/">Link</Link>
             </Navigation>
         </Drawer>
         <Content>

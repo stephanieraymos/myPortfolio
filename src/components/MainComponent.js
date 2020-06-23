@@ -9,10 +9,10 @@ import ResumeComponent from './ResumeComponent';
 const MainComponent = () => (
     <Switch>
         <Route exact path = "/" component = {HomeComponent} />
-        <Route exact path = "/" component = {AboutComponent} />
-        <Route exact path = "/" component = {ContactComponent} />
-        <Route exact path = "/" component = {ProjectsComponent} />
-        <Route exact path = "/" component = {ResumeComponent} />
+        <Route path = "/about" component = {AboutComponent} />
+        <Route path = "/contact" component = {ContactComponent} />
+        <Route path = "/projects" component = {ProjectsComponent} />
+        <Route path = "/resume" component = {ResumeComponent} />
 
     </Switch>
 )
