@@ -14,6 +14,10 @@ export class Home extends Component {
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
+              <hr/>
+              <p>
+                HTML/CSS | Bootstrap | Javascript | React | React Native | NodeJS | MongoDB
+              </p>
             </div>
           </Cell>
 
