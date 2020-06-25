@@ -8,7 +8,7 @@ export class Home extends Component {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src="https://cdn5.vectorstock.com/i/1000x1000/72/74/female-avatar-profile-icon-round-woman-face-vector-18307274.jpg"
+              src="https://lh3.googleusercontent.com/proxy/QkmSzq51pwj6A6UsYKXQClOctohtdiaKTYIH2s-KIGAnKnMY_t2-TCN5AJ2bAWyrvAqyjn26qwnCP0K0p9Fgvan4TY9Tm3-OAUaVS4Gyc0kv6g9_zmbYIVGg8w0uLLfiVjjVEEU_ohh5QpBlU4sUPatdXl0Z9otlF4l5nSrBW-ksPRROu_suLA"
               alt="Avatar"
               className="avatar"
             />
