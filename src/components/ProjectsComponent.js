@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 export class Projects extends Component {
 
@@ -14,9 +14,20 @@ export class Projects extends Component {
 
     if (this.state.activeTab === 0) {
       return (
-        <div>
-          <h1>This is React</h1>
-        </div>
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover'}}>React Project #1</CardTitle>
+          <CardText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </CardText>
+          <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>LiveDemo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
       )
     } else if (this.state.activeTab === 1) {
       return (
@@ -32,7 +43,7 @@ export class Projects extends Component {
       )
     }
   }
-  
+
   render() {
     return (
       <div className="catergory-tabs">
@@ -44,9 +55,14 @@ export class Projects extends Component {
             <Tab>React-Native</Tab>
             <Tab>MongoDB</Tab>
         </Tabs>
-
         <section className="projects-grid">
-          {this.toggleCatergories()}
+          <Grid className="projects-grid">
+            <Cell col={12}>
+              <div className="content">          
+                {this.toggleCatergories()}
+              </div>
+            </Cell>
+          </Grid>
         </section>
       </div>
     )
