@@ -89,4 +89,28 @@
     margin-bottom: 20px;
   }
 
+  .contact-grid h2 {
+    font-family: 'Sacramento', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  }
+
+  .contact-grid hr {
+    border-top: 2px solid black;
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-list {
+    align-items: center;
+
+  }
+
+  .contact-list i {
+    font-size: 50px;
+    padding-right: 5rem;
+  }
   /*Contact Page END*/
