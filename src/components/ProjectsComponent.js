@@ -16,41 +16,45 @@ export class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '250px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}></CardTitle>
             <CardText>
+              <h4 style={{ textAlign: 'center', color: 'black', marginTop: 0 }}>React Project #1</h4>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </CardText>
-            <CardActions border>
+            <CardActions border style={{ textAlign: 'center' }}>
               <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '250px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}></CardTitle>
             <CardText>
+              <h4 style={{ textAlign: 'center', color: 'black', marginTop: 0 }}>React Project #2</h4>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </CardText>
-            <CardActions border>
+            </CardText>
+            <CardActions border style={{ textAlign: 'center' }}>
               <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '250px', textAlign: 'center', background: 'url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png") center / cover' }}></CardTitle>
             <CardText>
+              <h4 style={{ textAlign: 'center', color: 'black', marginTop: 0 }}>React Project #3</h4>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </CardText>
-            <CardActions border>
+            </CardText>
+            <CardActions border style={{ textAlign: 'center' }}>
               <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -86,13 +90,13 @@ export class Projects extends Component {
           <Tab>MongoDB</Tab>
         </Tabs>
 
-          <Grid>
-            <Cell col={12}>
-              <div className="content">
-                {this.toggleCatergories()}
-              </div>
-            </Cell>
-          </Grid>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">
+              {this.toggleCatergories()}
+            </div>
+          </Cell>
+        </Grid>
       </div>
     )
   }
