@@ -66,6 +66,10 @@
     display: flex;
   }
 
+  .card-style {
+    margin: 10px;
+  }
+  
   /*Contact Page*/
 
   .contact-body {
