@@ -8,7 +8,7 @@ import ResumeComponent from './ResumeComponent';
 
 const MainComponent = () => (
     <Switch>
-        <Route exact path = "/" component = {HomeComponent} />
+        <Route exact path = "/home" component = {HomeComponent} />
         <Route path = "/about" component = {AboutComponent} />
         <Route path = "/contact" component = {ContactComponent} />
         <Route path = "/projects" component = {ProjectsComponent} />
