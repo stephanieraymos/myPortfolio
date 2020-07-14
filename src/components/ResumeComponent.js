@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { } from 'react-mdl';
 import { Container, Row, Col } from 'react-bootstrap';
-import stephanie from './img/stephanie.jpg'
+import stephanie from './img/stephanie.jpg';
+import Education from './EducationComponent';
 
 export class Resume extends Component {
   render() {
@@ -35,7 +36,13 @@ export class Resume extends Component {
               <hr style={{ borderTop: '3px solid black', width: '50%' }} />
 
             </Col>
-            <Col className="resume-right" col={8}>Right Side</Col>
+            <Col className="resume-right" col={8}>
+              <h2>Education</h2>
+
+              
+              <Education />
+
+            </Col>
           </Row>
         </Container>
       </div>
