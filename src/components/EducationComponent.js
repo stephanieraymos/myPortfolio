@@ -5,8 +5,18 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Education extends Component {
   render() {
     return(
-      <div><h1>Education</h1></div>
-    )
+      <Container>
+        <Row>
+          <Col xs='auto'>
+            <p>{this.props.startYear} - {this.props.endYear}</p>
+          </Col>
+          <Col>
+            <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
+            <p>{this.props.schoolDescription}</p>
+          </Col>
+        </Row>
+      </Container>
+      )
   }
 }
 
