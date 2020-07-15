@@ -7,10 +7,10 @@ class Education extends Component {
     return(
       <Container>
         <Row>
-          <Col xs='auto'>
+          <Col xs={4}>
             <p>{this.props.startYear} - {this.props.endYear}</p>
           </Col>
-          <Col>
+          <Col xs={8} style={{}}>
             <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
             <p>{this.props.schoolDescription}</p>
           </Col>

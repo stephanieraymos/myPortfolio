@@ -3,6 +3,7 @@ import { } from 'react-mdl';
 import { Container, Row, Col } from 'react-bootstrap';
 import stephanie from './img/stephanie.jpg';
 import Education from './EducationComponent';
+import Experience from './ExperienceComponent';
 
 export class Resume extends Component {
   render() {
@@ -15,7 +16,7 @@ export class Resume extends Component {
                 <img
                   src={stephanie}
                   alt="avatar"
-                  style={{ height: '200px' }}
+                  style={{ height: '300px', paddingTop: '25px', marginBottom: '-75px' }}
                 />
               </div>
 
@@ -52,9 +53,37 @@ export class Resume extends Component {
                 schoolName="NuCamp Coding Bootcamp"
                 schoolDescription="This was a 27 week bootcamp covering bootstrap, javascript, jquery, React, React-Native, Node and MongoDB"
               />
-              <hr style={{borderTop: '3px solid #e22947'}}/>
+              <hr style={{ borderTop: '3px solid #e22947' }} />
 
               <h2>Experience</h2>
+              <Experience
+                startYear={2013}
+                endYear={2015}
+                jobName="Napa Auto Parts"
+                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+              />
+              <Experience
+                startYear={2015}
+                endYear={2016}
+                jobName="Wells Fargo"
+                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+              />
+              <Experience
+                startYear={2017}
+                endYear="Present"
+                jobName="Mommin101"
+                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+              />
+              <Experience
+                startYear={2017}
+                endYear={2020}
+                jobName="Amazon associate"
+                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+              />
+              <hr style={{ borderTop: '3px solid black', width: '50%' }} />
+              <h2>Skills</h2>
+
+
             </Col>
           </Row>
         </Container>

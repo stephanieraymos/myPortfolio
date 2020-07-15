@@ -3,17 +3,6 @@ import { List, ListItem, ListItemContent } from 'react-mdl';
 import { Container, Row, Col } from 'react-bootstrap';
 import stephanie from './img/stephanie.jpg'
 
-function sendEmail() {
-  var mail = 'mailto:stephanieraymos@gmail.com';
-  var a = document.createElement('a');
-  a.href = mail;
-  a.click();
-};
-
-function foo(){
-  window.open("mailto:xyz@abc.com");
-}
-
 class Contact extends Component {
   render() {
     return (

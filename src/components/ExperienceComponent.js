@@ -7,7 +7,7 @@ class Experience extends Component {
     return(
       <Container>
         <Row>
-          <Col xs='auto'>
+          <Col xs={4}>
             <p>{this.props.startYear} - {this.props.endYear}</p>
           </Col>
           <Col>
