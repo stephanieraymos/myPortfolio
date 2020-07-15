@@ -39,20 +39,22 @@ export class Resume extends Component {
             <Col className="resume-right" col={8}>
               <h2>Education</h2>
 
-              <Education 
-              startYear={2008}
-              endYear={2010}
-              schoolName="Victory Academy"
-              schoolDescription="My highschool offered computer science as an elective. I took all 4 offered semesters"
+              <Education
+                startYear={2008}
+                endYear={2010}
+                schoolName="Victory Academy"
+                schoolDescription="My highschool offered computer science as an elective. I took all 4 offered semesters"
               />
 
-              <Education 
-              startYear={2020}
-              endYear={2020}
-              schoolName="NuCamp Coding Bootcamp"
-              schoolDescription="This was a 27 week bootcamp covering bootstrap, javascript, jquery, React, React-Native, Node and MongoDB"
+              <Education
+                startYear={2020}
+                endYear={2020}
+                schoolName="NuCamp Coding Bootcamp"
+                schoolDescription="This was a 27 week bootcamp covering bootstrap, javascript, jquery, React, React-Native, Node and MongoDB"
               />
+              <hr style={{borderTop: '3px solid #e22947'}}/>
 
+              <h2>Experience</h2>
             </Col>
           </Row>
         </Container>
