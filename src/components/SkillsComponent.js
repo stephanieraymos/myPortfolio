@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { } from 'react-mdl';
+import { ProgressBar } from 'react-mdl';
 import { Container, Row, Col } from 'react-bootstrap';
 
 class Skills extends Component {
@@ -8,7 +8,7 @@ class Skills extends Component {
       <Container>
         <Row>
           <Col xs={12}>
-            My col
+            <div style={{display: 'flex', textAlign: 'center'}}>{this.props.skill} <ProgressBar style={{marginLeft: 'auto', width: '75%'}} progress={this.props.progress} /></div>
           </Col>
         </Row>
       </Container>
@@ -17,3 +17,4 @@ class Skills extends Component {
 }
 
 export default Skills;
+

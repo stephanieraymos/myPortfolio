@@ -6,7 +6,7 @@ class Education extends Component {
   render() {
     return(
       <Container>
-        <Row>
+        <Row style={{paddingLeft:0, paddingRight:0}}>
           <Col xs={4}>
             <p>{this.props.startYear} - {this.props.endYear}</p>
           </Col>

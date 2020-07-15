@@ -4,12 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import stephanie from './img/stephanie.jpg';
 import Education from './EducationComponent';
 import Experience from './ExperienceComponent';
+import Skills from './SkillsComponent';
 
 export class Resume extends Component {
   render() {
     return (
       <div>
-        <Container>
+        <Container fluid="sm" style={{paddingLeft:20, paddingRight:20}}>
           <Row>
             <Col className="resume-left" col={4}>
               <div style={{ textAlign: 'center' }}>
@@ -80,9 +81,36 @@ export class Resume extends Component {
                 jobName="Amazon associate"
                 jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
               />
-              <hr style={{ borderTop: '3px solid black', width: '50%' }} />
+              <hr style={{ borderTop: '3px solid #e22947' }} />
               <h2>Skills</h2>
-
+              <Skills
+                skill="javascript"
+                progress={100}
+              />
+              <Skills
+                skill="html"
+                progress={100}
+              />
+              <Skills
+                skill="css"
+                progress={100}
+              />
+              <Skills
+                skill="React"
+                progress={80}
+              />
+              <Skills
+                skill="React Native"
+                progress={75}
+              />
+              <Skills
+                skill="NodeJs"
+                progress={50}
+              />
+              <Skills
+                skill="MongoDB"
+                progress={50}
+              />
 
             </Col>
           </Row>
