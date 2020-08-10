@@ -10,7 +10,7 @@ export class Resume extends Component {
   render() {
     return (
       <div>
-        <Container fluid="sm" style={{paddingLeft:20, paddingRight:20}}>
+        <Container fluid="sm" style={{ paddingLeft: 20, paddingRight: 20 }}>
           <Row>
             <Col className="resume-left" col={4}>
               <div style={{ textAlign: 'center' }}>
@@ -24,9 +24,11 @@ export class Resume extends Component {
               <h2 style={{ paddingTop: '2em' }}>Stephanie Raymos</h2>
               <h4 style={{ color: 'grey' }}>Programmer</h4>
               <hr style={{ borderTop: '3px solid black', width: '50%' }} />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              <p>I eat, sleep and breathe Computer Science.</p>
+              <p>If you're looking for someone who <strong>NEVER GIVES UP</strong>; you've landed exactly where you needed to.</p>
+              <p>I have such an strong passion for programming. In my free time; you'll find me at my desk with a huge smile on my face. This is what I love to do. It's second nature to me; as easy as breathing.</p>
+              <p>The issues and errors don't frustrate me because I know exactly where to look to find solutions. In fact; they're exciting to me, because once I've solved them; I've <strong>LEARNED</strong> something very valuable that will ultimately make me a much better coder.</p>
+              <p>I am different in many ways, but I consider my most important attribute to be that I bring my positivity anywhere I go; spreading it to everyone I approach.</p>
               <hr style={{ borderTop: '3px solid black', width: '50%' }} />
               <h5>Address</h5>
               <p>1582 Response Rd Sacramento, CA 95815</p>
@@ -51,8 +53,8 @@ export class Resume extends Component {
               <Education
                 startYear={2020}
                 endYear={2020}
-                schoolName="NuCamp Coding Bootcamp"
-                schoolDescription="This was a 27 week bootcamp covering bootstrap, javascript, jquery, React, React-Native, Node and MongoDB"
+                schoolName="NuCamp"
+                schoolDescription="This was a full-stack 27 week program covering bootstrap, javascript, jquery, React, React-Native, Node and MongoDB. I graduated with honors."
               />
               <hr style={{ borderTop: '3px solid #e22947' }} />
 
@@ -61,38 +63,41 @@ export class Resume extends Component {
                 startYear={2013}
                 endYear={2015}
                 jobName="Napa Auto Parts"
-                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+                jobDescription="Managed a team of 10 employees and created schedules. 
+                Performed bookkeeping for all financial transactions and balanced all accounts. 
+                Responded to customer inquiries relating to orders placed in store or online, vehicle performance issues and other automotive related issues.
+                Increased sales revenue for my branch by 21% by producing lasting business relationships with returning customers"
               />
               <Experience
                 startYear={2015}
                 endYear={2016}
                 jobName="Wells Fargo"
-                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+                jobDescription="Managed and motivated teams of 10-15 representatives. Handled up to 150 customer inquiries per day on a variety of topics, includingresolving complaints, providing additional product details, and troubleshooting technical errors. Exceeded sales goals by 15% through effective up-selling of company’s products"
               />
               <Experience
                 startYear={2017}
                 endYear="Present"
                 jobName="Mommin101"
-                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+                jobDescription="Created the Mommin101 website using WordPress. Utilized Google Analytics to learn about SEO tactics and how to improve. Authored and edited every article."
               />
               <Experience
                 startYear={2017}
                 endYear={2020}
                 jobName="Amazon associate"
-                jobDescription="Thasdlkfjalskdjflk asdjflkj aflskdjflk ajsdflkjsdf"
+                jobDescription="Established business relationships with hundreds of sellers from multiple brands such as Amazon and Etsy. Closely monitored internal site and technology discussion to keep in line with company goals. Managed all social media accounts for marketers including building social media platforms from the ground up. Social media reached 300,000 followers in 2 years."
               />
               <hr style={{ borderTop: '3px solid #e22947' }} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
+                skill="JavaScript"
                 progress={100}
               />
               <Skills
-                skill="html"
+                skill="HTML5"
                 progress={100}
               />
               <Skills
-                skill="css"
+                skill="CSS"
                 progress={100}
               />
               <Skills
@@ -104,7 +109,7 @@ export class Resume extends Component {
                 progress={75}
               />
               <Skills
-                skill="NodeJs"
+                skill="NodeJS"
                 progress={50}
               />
               <Skills
